@@ -43,3 +43,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'slim'
+
+group :development do
+  gem 'slim-rails'
+end
