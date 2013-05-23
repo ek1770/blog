@@ -12,4 +12,4 @@
   .field
     = f.label :body
     = f.text_area :body
-  .actions = f.submit 'Save'
+  = f.submit "save(@post.new_record? ? 'Create' : 'Update', class: 'btn btn-primary')

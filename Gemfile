@@ -49,3 +49,11 @@ gem 'slim'
 group :development do
   gem 'slim-rails'
 end
+
+group :development, :test do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'capybara'
+end
